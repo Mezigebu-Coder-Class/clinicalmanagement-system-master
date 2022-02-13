@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:11.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:11.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:11.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:11.0.2" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:11.0.2" />
+      <element id="library" level="project" name="Maven: com.dlsc.formsfx:formsfx-core:11.3.2" />
+    </root>
+  </artifact>
+</component>

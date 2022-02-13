@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #275;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tecno.PATIENTControllers">
+            <children>
+               <Button fx:id="PATIENT" layoutX="1.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="797.0" style="-fx-background-color: #768;" text="PATIENT">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+               <TableView fx:id="patbl" layoutY="77.0" prefHeight="211.0" prefWidth="698.0">
+                 <columns>
+                   <TableColumn fx:id="idCol" prefWidth="90.0" text="id" />
+                     <TableColumn fx:id="nameCol" prefWidth="92.0" text="name" />
+                     <TableColumn fx:id="ageCol" prefWidth="89.0" text="age" />
+                     <TableColumn fx:id="genderCol" prefWidth="91.0" text="gender" />
+                     <TableColumn fx:id="roomnoCol" prefWidth="100.0" text="roomno" />
+                 </columns>
+               </TableView>
+               <Button fx:id="Addpatient" layoutX="336.0" layoutY="444.0" mnemonicParsing="false" onAction="#Addpatient" prefHeight="34.0" prefWidth="113.0" style="-fx-background-color: #980;" text="Add-patient" />
+               <Button fx:id="Deletepatient" layoutX="477.0" layoutY="444.0" mnemonicParsing="false" onAction="#Deletepatient" prefHeight="34.0" prefWidth="113.0" style="-fx-background-color: #980;" text="Delet-patient" />
+               <Label layoutX="70.0" layoutY="335.0" text="id" />
+               <Label layoutX="60.0" layoutY="363.0" text="name" />
+               <Label layoutX="60.0" layoutY="393.0" text="age" />
+               <TextField fx:id="idt" layoutX="103.0" layoutY="331.0" />
+               <TextField fx:id="namet" layoutX="103.0" layoutY="368.0" />
+               <TextField fx:id="aget" layoutX="103.0" layoutY="402.0" />
+               <Label layoutX="349.0" layoutY="312.0" text="gender" />
+               <Label layoutX="354.0" layoutY="348.0" text="roomno" />
+               <TextField fx:id="gendert" layoutX="410.0" layoutY="308.0" />
+               <TextField fx:id="roomnot" layoutX="410.0" layoutY="344.0" />
+            </children></AnchorPane>
